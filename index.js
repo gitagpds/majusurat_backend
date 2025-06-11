@@ -17,11 +17,11 @@ dotenv.config();
 const app = express();
 app.use(cookieParser());
 
-// Daftar origin yang diizinkan
-const allowedOrigins = [
-  "http://localhost:3000",
-  "https://majusurat-fe-dot-a-06-new.uc.r.appspot.com",
-];
+// // Daftar origin yang diizinkan
+// const allowedOrigins = [
+//   "http://localhost:3000",
+//   "https://majusurat-fe-dot-a-06-new.uc.r.appspot.com",
+// ];
 
 app.use(
   cors({
